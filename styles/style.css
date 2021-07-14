@@ -1,0 +1,204 @@
+/* ----------------
+    Google Font link
+-----------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+
+/*--------------
+------Common css -----
+-----------------*/
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+  
+}
+
+/*------------------------------
+-------- Header Area-----------
+------------------------------- */
+
+.header_area {
+    background-color:#2D25A0;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 91px; 
+    
+    height: 677px;
+   
+}
+
+
+
+.header_area:hover img {
+    transform: scale(1.1);
+    transition: 1s ease-in-out;
+}
+
+.header_text h1 {
+    color: #ffffff;
+    margin-top: 170px;
+    font-weight: 700;
+    font-size: 64px;
+    margin-left: 120px;
+   
+}
+
+.header_banner img {
+    height: 438px;
+    width: 556px;
+    margin-top: 153px;  
+}
+
+button {
+    background-color:#E02C6D ;
+    width: 168px;
+    height: 44px; 
+    Padding :10px 24px 10px 24px;
+    border: none;
+    color:#FFFFFF;
+    font-weight: 500;
+    margin-left: 116px;
+    
+}
+
+i.fas.fa-arrow-right {
+    margin-left: 8px;
+}
+
+
+/*------------------
+-- All players css--
+----------------- */
+
+
+.all_players {
+
+    
+    margin: 50px 150px ;
+    background: #FFFFFF;
+     
+    
+}
+.players {
+
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    height: 474px;
+   
+}
+
+.player {
+    
+    padding: 15px;      
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    margin-bottom: 27px;
+    width: 85%;
+     
+}
+
+
+.player img {
+
+    width: 300px;
+    height:256px;
+}
+
+
+.player h3 {
+    font-size:28px ;
+    font-weight: bold;
+}
+
+
+/* --------------------
+---Highlights_area css--
+------------------------ */
+
+
+
+.Highlights_area {
+    
+    position: absolute;
+    top: 2889px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 66px; 
+
+
+}
+
+.Highlights_text h1 {
+    color:#0A0826;
+    margin-top: 170px;
+    font-weight: 700;
+    font-size: 48px;
+    margin-left: 120px;
+    width: 100%;
+    margin-bottom: 0px;
+   
+}
+
+.Highlights_text p {
+    color:#0A0826;
+    margin-top: 8px;
+    font-weight: 700;
+    font-size: 16px;
+    margin-left: 120px;
+    width: 80%;
+   
+}
+
+.side_img img {
+    height: 427px;
+    width: 567px;
+    margin-top: 153px;  
+    left: 717px;
+}
+
+/* -----------------------
+----- Footer Area css-----
+ ------------------------ */
+
+.container {
+    
+    position: absolute;
+    top: 3474px;
+   
+    margin:158px  475px;
+ 
+}
+
+.footer_area {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     
+}
+
+.footer_img  img {
+
+    width: 483px;
+    height:110px;
+    
+}
+
+
+.social_link{
+   
+    margin-top: 20px;
+    margin-right:14px ;
+    font-size: 30px;
+    color:#969BAB;
+
+}
+
+
+.copy_right {
+    margin-bottom: 63px;
+}
+
+
